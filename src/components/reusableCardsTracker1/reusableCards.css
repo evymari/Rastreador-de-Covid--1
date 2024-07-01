@@ -1,0 +1,68 @@
+.selectCountry{
+    width:200px;
+    height: 30px;
+    margin-left: 20px;
+    border-style: none;
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 4px;
+}
+.cardsContainer{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    width:640px;
+}
+.reusableCard{
+    background-color: rgb(255, 255, 255);
+    width: 258px;
+    height:103px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid rgb(236, 235, 235);
+    box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
+    margin: 20px;
+    transition: transform ease 400ms;
+}
+.reusableCard:hover{
+    transform: translate(0, -10px);
+    .imgIcon{
+        animation: spin 3s infinite linear;
+    }
+
+}
+@keyframes spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+.reusableCardText{
+    width: 60%;
+}
+.reusablCardIcon{
+    width: 40%;
+}
+.labelCard{
+    margin: 10px 0 12px 13px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    
+}
+.valueCard{
+    margin: 0 0 0 13px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    
+}
+.imgIcon{
+    width: 80px;
+    height:80px;
+    opacity: 0.2;
+    position: relative;
+    
+    
+}

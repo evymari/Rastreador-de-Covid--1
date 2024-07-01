@@ -1,0 +1,54 @@
+
+.nav{
+    position: fixed;
+    width: 100%;
+	height: 80px;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: space-around;
+	background: transparent;
+    margin:0;
+    color:white;
+    align-items: center;
+}
+.nav-bg{
+    background-color: white;
+    color:blue;
+}
+
+.leftNavbar{
+    padding: 20px;
+}
+.navbarUl{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.navbarLi{
+    list-style: none;
+}
+.trackerNavbar{
+    width: 140px;
+    height: 42px;
+    border:none;
+    background-color: rgb(45, 45, 199);
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.burgerNav{
+    display:none;
+}
+
+@media screen and (width <= 991px) {
+    .burgerNav{
+        display:flex;
+        right: 5px;
+    }
+    .rightNavbar {
+    display: none;
+    }
+  }

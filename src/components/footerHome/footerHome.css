@@ -1,0 +1,115 @@
+.footer {
+  background-color: #1a2b4b;
+  color: white;
+  padding:2.5rem 1.25rem 1.25rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+ 
+  
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 12.5rem;
+}
+
+.logo-section {
+  max-width: 20.313rem;
+  margin-left: 0.625rem;
+}
+
+.footer-logo {
+  width: 9.375rem; 
+  margin-top: 1.875rem;
+}
+
+.description {
+  margin-bottom: 1.25rem;
+  color: #515184;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #515184;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.social-icon:hover {
+background-color: white;
+color: #515184;
+}
+
+.social-icon:hover .youtube {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(24%) saturate(911%) hue-rotate(201deg) brightness(91%) contrast(90%);
+} 
+
+.quick-links, .about, .help {
+  max-width: 11.25rem;
+}
+
+.footer-section h4 {
+  font-size: 1.125rem;
+  margin-bottom: 0.938rem;
+  padding: 0.313rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0.313rem;
+}
+
+.footer-section ul li {
+  margin-bottom: 1.25rem;
+}
+
+.footer-section ul li a {
+  color: #515184;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.25rem;
+  border-top: 1px solid #515184;
+  padding-top: 0.313rem;
+  font-size: 0.875rem;
+}
+.footer-bottom p {
+  color:#515184;
+  margin-left: 0.625rem;
+  padding-top: 0.313rem;
+  margin-bottom: 0.313rem;
+}
+
+.footer-bottom-desing{
+  margin-right: 2.5rem;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+

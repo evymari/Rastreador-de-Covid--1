@@ -1,0 +1,74 @@
+ .WiseTabs{
+    
+    margin-left: 33%;
+    margin-top: -50%;
+    width: 1400px;
+    height: 750px;
+    background-color: #293F73;
+   
+ }
+
+.CountryWiseTabsTitle{
+    text-align: justify;
+    align-content: center;
+    font-size: 18px;
+    display: flex;
+    margin: 0;
+    margin-left: 5%;
+    line-height: 1.2;
+    color: #121158;
+}
+.TFCountryContainer{
+    background-color: aqua;
+    height:20px;
+    /* margin: 5%; */
+    width: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow:  0px 1px 10px rgba(0, 0, 0, 0.06);
+    border: 1px #fb5d5d solid;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    margin-left: -7%;
+    &:hover{
+        transform: scale(1.03);
+    }    
+}
+
+.FTInfoData{
+display: flex;
+flex-direction: row;
+/* gap: 8px; */
+align-items: center;
+
+}
+.TF-Flag{
+    height: 21.11px;
+    width: 40px;
+    /* padding-right: 5px;
+    margin-left: -20%; */
+}
+.TF-Flag img {
+    box-shadow:  0px 1px 10px rgba(255, 255, 255, 0.06);
+    border: 1px #eee solid;
+    border-radius: 3px;
+    height: 21.11px;
+    width: 100px;
+    height: 60px;
+}
+.TF-Country {
+    font-size: 13px;
+    color: black;
+    font-weight:300;
+    margin-top: 10%;
+}
+.TF-ConfirmedCase{
+    color: #293F73;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
